@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+      }
+      
+      li {
+        float: right;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color:black;
+      }
+
+
+      body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color:white;
+    }
+    .achtergrond {
+      background-image:url(Afbeeldingen/strand.jpg);
+      background-size: cover;
+      height: 800px;
+      position: relative;
+      background-repeat: no-repeat;
+    }
+    .achtergrond-text {
+      text-align: center;
+      position: absolute;
+      background-color: rgb(0,0,0); 
+      background-color: rgba(0,0,0, 0.4); 
+      color: white;
+      border: 3px solid #f1f1f1;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 80%;
+      padding: 20px;
+      text-align: center;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .footer {
+      bottom:0;
+      left:0;
+          }
+      
+      .footer-text{
+      color:black;
+      position:relative;
+      
+        }
+      </style>
+      </head>
+      <body>
+    <ul>
+        <li><a href="contact.html"><b>Contact</b></a></li>
+        <li><a href="hobby's.html"><b>Hobby's</b></a></li>
+        <li><a href="cv.html"><b>Cv</b></a></li>
+        <li><a href="index.html"><b>Home</b></a></li>
+    </ul>
+ 
+    <div class="achtergrond">
+        <div class="achtergrond-text">
+            <h1 style="text-align:center;">Ervaring</h1>
+            <p style="text-align:center;">Ik heb nog heel weinig ervaring met IT, dit is mijn eerste jaar als student op de hogeschool. De richting Systeem en Netwerkbeheer is heel interessant en heel leerrijk. <br>
+                <form action="cv.html">
+                    <button type="submit">Klik hier voor mijn cv</button>
+                 </form>
+            </p>
+        </div>
+    </div>
+    <center>
+        <div class="footer">
+        <div class="footer-text">
+        <p>Copyright &copy; Jules Van Loven</p>
+        </div>
+        </div>
+        </center>
+       </body>
+</html>
